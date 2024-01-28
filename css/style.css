@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* Cor de fundo feminina */
+}
+
+header {
+    background: linear-gradient(to right, #d36189, #ff99cc); /* Degradê rose claro para rose escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffd9e6; /* Cor de fundo do rodapé */
+    text-align: center;
+    padding: 10px;
+}
+/* Adicione estilos adicionais conforme necessário */
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #ff66b2; /* Cor de botão chamativa */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ff66b2; /* Cor de fundo do rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info, .social-media {
+    max-width: 300px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
